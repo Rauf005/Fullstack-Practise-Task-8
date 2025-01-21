@@ -1,0 +1,13 @@
+.cards{
+    width: 70%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+
+    .card{
+        img{
+            width: 100%;
+        }
+    }
+}
